@@ -1,0 +1,37 @@
+{
+  "episode": "EP001",
+  "status": "visual_treatment_not_audio_synced",
+  "duration_sec": 24,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "audio": null,
+  "segments": [
+    {
+      "start": 0,
+      "end": 7,
+      "visual": "behind-scenes-photo-and-control-question",
+      "source_id": "S021"
+    },
+    {
+      "start": 7,
+      "end": 13,
+      "visual": "observation-inference-decision-original-graphics"
+    },
+    {
+      "start": 13,
+      "end": 18,
+      "visual": "limits-of-understanding-question"
+    },
+    {
+      "start": 18,
+      "end": 24,
+      "visual": "approved-title"
+    }
+  ],
+  "copyright": {
+    "photo": "Andrew Comings / CC BY 2.0",
+    "photo_source": "https://commons.wikimedia.org/wiki/File:Simon_Baker_on_set.jpg",
+    "original_graphics": "created for this project"
+  }
+}

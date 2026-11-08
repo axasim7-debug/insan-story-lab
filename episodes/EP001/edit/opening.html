@@ -1,0 +1,21 @@
+<!doctype html><html lang="ar" dir="rtl"><meta charset="utf-8"><title>EP001 — Documentary opening</title><style>
+@font-face{font-family:Arabic;src:url('/fonts/bold.ttf');font-weight:700}
+@font-face{font-family:Arabic;src:url('/fonts/regular.ttf');font-weight:400}
+*{box-sizing:border-box}body{margin:0;background:#080d12;overflow:hidden}canvas{display:block;width:100vw;height:100vh}
+</style><canvas width="1920" height="1080"></canvas><script>
+const c=document.querySelector('canvas'),g=c.getContext('2d');const photo=new Image();photo.src='../assets/licensed/baker.jpg';
+const W=1920,H=1080,white='#eee9df',gold='#c99b65',muted='#7d8992';
+const clamp=x=>Math.max(0,Math.min(1,x));const ease=x=>1-Math.pow(1-clamp(x),3);
+function txt(text,x,y,size,color=white,align='right',weight=700){g.fillStyle=color;g.font=`${weight} ${size}px Arabic`;g.textAlign=align;g.direction='rtl';g.fillText(text,x,y)}
+function line(x,y,x2,y2,col=gold){g.strokeStyle=col;g.lineWidth=2;g.beginPath();g.moveTo(x,y);g.lineTo(x2,y2);g.stroke()}
+function panel(x,y,w,h){g.fillStyle='#111a23';g.fillRect(x,y,w,h);g.strokeStyle='#26333e';g.lineWidth=1;g.strokeRect(x,y,w,h)}
+function base(t){g.fillStyle='#080d12';g.fillRect(0,0,W,H);let gr=g.createRadialGradient(1350,420,0,1000,540,1350);gr.addColorStop(0,'#17232e');gr.addColorStop(1,'#080d12');g.fillStyle=gr;g.fillRect(0,0,W,H);g.strokeStyle='#ffffff08';g.lineWidth=1;for(let x=0;x<W;x+=80){g.beginPath();g.moveTo(x,0);g.lineTo(x,H);g.stroke()}for(let y=0;y<H;y+=80){g.beginPath();g.moveTo(0,y);g.lineTo(W,y);g.stroke()}
+ txt('ملف شخصية',1780,105,23,gold);g.direction='ltr';g.textAlign='left';g.fillStyle=muted;g.font='18px monospace';g.fillText('THE MENTALIST  /  001',120,105);line(120,145,1800,145,'#52606b55');line(120,945,1800,945,'#52606b55');txt('باتريك جين',1780,1000,26,muted);g.textAlign='left';g.direction='ltr';g.font='18px monospace';g.fillStyle=muted;g.fillText('EPISODE 001',120,1000)
+}
+function scene1(s){let p=ease(s/.8);g.save();g.globalAlpha=p;g.translate(0,28*(1-p));panel(120,260,760,602);g.drawImage(photo,142,300,716,537);txt('أرشيف: سايمون بيكر خلف الكواليس',850,285,19,muted);txt('كل حاجة',1780,405,107);txt('تحت السيطرة؟',1780,550,108,gold);line(1130,600,1780,600);txt('الشخص اللي بيسبق الجميع بخطوة',1780,672,31,muted);g.direction='ltr';g.textAlign='left';g.fillStyle=muted;g.font='15px sans-serif';g.fillText('Photo: Andrew Comings / CC BY 2.0',142,887);g.restore()}
+function scene2(s){txt('إنت شايف النتيجة.',1780,280,65);txt('بس إيه اللي حصل قبلها؟',1780,365,48,gold);const cards=[['ملاحظة','تفصيلة يلتقطها'],['استنتاج','تفسير يختبره'],['قرار','خطوة يختارها']];cards.forEach(([a,b],i)=>{let p=ease((s-i*.4)/.8);g.save();g.globalAlpha=p;let x=1300-i*570;g.translate(0,50*(1-p));panel(x,475,480,300);txt(a,x+430,585,58,white);txt(b,x+430,665,28,muted);g.fillStyle=gold;g.fillRect(x+430,515,5,30);if(i<2)line(x-75,625,x-15,625,'#c99b6570');g.restore()});txt('قراءة تحريرية • الملاحظة والتفسير مش دايمًا نفس الشيء',1780,858,25,muted)}
+function scene3(s){let p=ease(s/.7);g.save();g.globalAlpha=p;txt('يفهم الآخرين.',1780,380,88);txt('إيه اللي يفضل صعب عليه؟',1780,535,78,gold);txt('المهارة  /  الاختيار  /  الثقة',1780,660,31,muted);line(120,770,120+1680*ease((s-.5)/2),770);g.restore()}
+function scene4(s){let p=ease(s/.9);g.save();g.globalAlpha=p;g.translate(0,32*(1-p));txt('ليه مش كفاية إنك تكون',1780,350,78);txt('أذكى واحد في المكان؟',1780,490,92,gold);txt('باتريك جين',1780,635,45);g.direction='ltr';g.textAlign='left';g.font='21px monospace';g.fillStyle=muted;g.fillText('A CHARACTER DOCUMENTARY',125,820);g.restore()}
+window.ready=Promise.all([document.fonts.load('700 100px Arabic'),document.fonts.load('400 30px Arabic'),photo.decode()]);
+window.renderFrame=t=>{base(t);let fn,s;if(t<7){fn=scene1;s=t}else if(t<13){fn=scene2;s=t-7}else if(t<18){fn=scene3;s=t-13}else{fn=scene4;s=t-18}g.save();g.globalAlpha=clamp(s/.25);fn(s);g.restore();let fade=clamp((t-23.4)/.6);g.fillStyle=`rgba(8,13,18,${fade})`;g.fillRect(0,0,W,H)};
+</script></html>

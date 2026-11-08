@@ -28,3 +28,8 @@ exports/
 /episodes/EP001/assets/research/carlsmith-revenge-2008.pdf
 /episodes/EP001/assets/evidence/heller-tvguide.html
 /episodes/EP001/assets/evidence/baker-digitalspy.html
+
+# User narration and masters stay local unless explicitly published.
+*.m4a
+*.flac
+*.aac
