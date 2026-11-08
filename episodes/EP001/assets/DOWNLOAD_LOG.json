@@ -1,0 +1,114 @@
+[
+  {
+    "id": "audio-heller-1",
+    "path": "reference/heller-interview-part1.mp3",
+    "url": "https://www.tvtimemachine.com/sys/wp-content/uploads/2012/01/TheMentalistSegment1Web.mp3",
+    "final_url": "https://www.tvtimemachine.com/sys/wp-content/uploads/2012/01/TheMentalistSegment1Web.mp3",
+    "bytes": 20567796,
+    "content_type": "audio/mpeg",
+    "sha256": "ab6be6a11ff61c32648b93efe08d13091ccba8305aa16709304d6409ab114347",
+    "status": "downloaded"
+  },
+  {
+    "id": "audio-heller-2",
+    "path": "reference/heller-interview-part2.mp3",
+    "url": "https://www.tvtimemachine.com/sys/wp-content/uploads/2012/01/TheMentalistSegment2Web.mp3",
+    "final_url": "https://www.tvtimemachine.com/sys/wp-content/uploads/2012/01/TheMentalistSegment2Web.mp3",
+    "bytes": 11822001,
+    "content_type": "audio/mpeg",
+    "sha256": "10bca5d503c70ee6c8462c81eb841646fda3a5839a9b864c359b05a277928ef6",
+    "status": "downloaded"
+  },
+  {
+    "id": "audio-heller-3",
+    "path": "reference/heller-interview-part3.mp3",
+    "url": "https://www.tvtimemachine.com/sys/wp-content/uploads/2012/01/TheMentalistSegment3Web.mp3",
+    "final_url": "https://www.tvtimemachine.com/sys/wp-content/uploads/2012/01/TheMentalistSegment3Web.mp3",
+    "bytes": 14810827,
+    "content_type": "audio/mpeg",
+    "sha256": "64a6096783a010c89040ddd2f8db56c8d5228776707cd2b6936195251e2a7982",
+    "status": "downloaded"
+  },
+  {
+    "id": "pdf-revenge",
+    "path": "research/carlsmith-revenge-2008.pdf",
+    "url": "https://dtg.sites.fas.harvard.edu/CARLSMITH%2C%20WILSON%2C%20%26%20GILBERT%20%282008%29.pdf",
+    "final_url": "https://dtg.sites.fas.harvard.edu/CARLSMITH%2C%20WILSON%2C%20%26%20GILBERT%20%282008%29.pdf",
+    "bytes": 92942,
+    "content_type": "application/pdf",
+    "sha256": "39e237ec4fa000388c5df20f0a8520cf7f6aac9ffd28cafcdfdb0bdcd55a97bd",
+    "status": "downloaded"
+  },
+  {
+    "id": "pdf-bias",
+    "url": "https://www.keithstanovich.com/Site/Research_on_Reasoning_files/West_Stanovich_JPSP2012.pdf",
+    "status": "failed",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "id": "page-heller-radio",
+    "url": "https://www.tvtimemachine.com/1333/interview-with-the-mentalist-creator-bruno-heller",
+    "status": "failed",
+    "error": "HTTP Error 307: Temporary Redirect"
+  },
+  {
+    "id": "page-heller-tvguide",
+    "path": "evidence/heller-tvguide.html",
+    "url": "https://www.tvguide.com/news/mentalist-bruno-heller-season-6-premiere-1071429/",
+    "final_url": "https://www.tvguide.com/news/mentalist-bruno-heller-season-6-premiere-1071429/",
+    "bytes": 226248,
+    "content_type": "text/html;charset=utf-8",
+    "sha256": "ef2f09615958c78aa52aa1eb2a81d9ce4ddbf76e3b41de35f814dafd51aaf177",
+    "status": "downloaded"
+  },
+  {
+    "id": "page-baker-digitalspy",
+    "path": "evidence/baker-digitalspy.html",
+    "url": "https://www.digitalspy.com/tv/a150413/simon-baker-the-mentalist/",
+    "final_url": "https://www.digitalspy.com/tv/a150413/simon-baker-the-mentalist/",
+    "bytes": 74347,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "a7062446d75090f3e8d83e4e732827e15915b4b43c75831fab437969e4a6f198",
+    "status": "downloaded"
+  },
+  {
+    "id": "photo-baker-license",
+    "path": "evidence/baker-commons-license.html",
+    "url": "https://commons.wikimedia.org/wiki/File:Simon_Baker_on_set.jpg",
+    "final_url": "https://commons.wikimedia.org/wiki/File:Simon_Baker_on_set.jpg",
+    "bytes": 109462,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "261fbe018fc240ee0365610ad9b401c67391a103bc4135d12200e201c182f04c",
+    "status": "downloaded"
+  },
+  {
+    "id": "photo-car-license",
+    "path": "evidence/car-commons-license.html",
+    "url": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_DS_20_Pallas_1973_-_Mondial_de_l%27Automobile_de_Paris_2016_-_001.jpg",
+    "final_url": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_DS_20_Pallas_1973_-_Mondial_de_l%27Automobile_de_Paris_2016_-_001.jpg",
+    "bytes": 137851,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "eda47b92fd642bcf759b1f513c42292575145202b0c9ae82db81f37ca5e4090b",
+    "status": "downloaded"
+  },
+  {
+    "id": "photo-baker",
+    "path": "licensed/baker.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Simon_Baker_on_set.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "final_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Simon_Baker_on_set.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "bytes": 54027,
+    "content_type": "image/jpeg",
+    "sha256": "21b4f92fba8b6cf46465c2868c860ef6d6e66ea4d07787b9a60ed959ee4fd2bc",
+    "status": "downloaded"
+  },
+  {
+    "id": "photo-car",
+    "path": "licensed/car.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Citro%C3%ABn_DS_20_Pallas_1973_-_Mondial_de_l%27Automobile_de_Paris_2016_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "final_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Citro%C3%ABn_DS_20_Pallas_1973_-_Mondial_de_l%27Automobile_de_Paris_2016_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "bytes": 22699718,
+    "content_type": "image/jpeg",
+    "sha256": "67b7c21d14c0ebc266c0a3f2509b993581d4e5cb4530eeed9522e3bacaac56b2",
+    "status": "downloaded"
+  }
+]

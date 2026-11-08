@@ -1,0 +1,47 @@
+[
+  {
+    "id": "baker-interview",
+    "url": "https://www.digitalspy.com/tv/a150413/simon-baker-the-mentalist/",
+    "final_url": "https://www.digitalspy.com/tv/a150413/simon-baker-the-mentalist/",
+    "http_status": 200,
+    "title": "Simon Baker ('The Mentalist')",
+    "path": "research/baker-interview.png",
+    "status": "captured"
+  },
+  {
+    "id": "heller-audio-page",
+    "url": "https://www.tvtimemachine.com/1333/interview-with-the-mentalist-creator-bruno-heller",
+    "final_url": "https://www.tvtimemachine.com/1333/interview-with-the-mentalist-creator-bruno-heller",
+    "http_status": 307,
+    "title": "TV Time Machine » Interview with The Mentalist Creator Bruno Heller",
+    "path": "research/heller-audio-page.png",
+    "status": "captured"
+  },
+  {
+    "id": "bias-paper",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22663351/",
+    "final_url": "https://pubmed.ncbi.nlm.nih.gov/22663351/",
+    "http_status": 403,
+    "title": "403",
+    "path": "evidence/blocked-bias-paper.png",
+    "status": "blocked_not_source_capture"
+  },
+  {
+    "id": "baker-license",
+    "url": "https://commons.wikimedia.org/wiki/File:Simon_Baker_on_set.jpg",
+    "final_url": "https://commons.wikimedia.org/wiki/File:Simon_Baker_on_set.jpg",
+    "http_status": 200,
+    "title": "File:Simon Baker on set.jpg - Wikimedia Commons",
+    "path": "research/baker-license.png",
+    "status": "captured"
+  },
+  {
+    "id": "paley-record",
+    "url": "https://www.paleycenter.org/collection/item?item=100013",
+    "final_url": "https://www.paleycenter.org/collection/item?item=100013",
+    "http_status": 200,
+    "title": "",
+    "path": "research/paley-record.png",
+    "status": "captured"
+  }
+]

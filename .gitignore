@@ -1,0 +1,30 @@
+# Secrets and local runtime
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+.DS_Store
+# Large production assets: keep manifests in Git
+assets/raw/
+assets/licensed/
+exports/
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.aep
+*.prproj
+*.drp
+
+# Full third-party recordings and articles remain local research copies.
+# Source URLs and acquisition scripts are versioned instead.
+/episodes/EP001/assets/reference/heller-interview-part1.mp3
+/episodes/EP001/assets/reference/heller-interview-part2.mp3
+/episodes/EP001/assets/reference/heller-interview-part3.mp3
+/episodes/EP001/assets/research/precup-memory-paper.pdf
+/episodes/EP001/assets/research/carlsmith-revenge-2008.pdf
+/episodes/EP001/assets/evidence/heller-tvguide.html
+/episodes/EP001/assets/evidence/baker-digitalspy.html

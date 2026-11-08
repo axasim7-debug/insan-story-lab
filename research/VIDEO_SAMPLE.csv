@@ -1,0 +1,7 @@
+sample_id,work,topic,source_id,video_url,evidence_status
+V01,Whiplash,الطموح والنجاح,S002,https://www.youtube.com/watch?v=l8JfaFYndu8,عنوان أصلي مفهرس؛ لم يُشاهد
+V02,Eternal Sunshine of the Spotless Mind,الحب والذاكرة,S003,https://www.youtube.com/watch?v=COkVhnQiisM,عنوان أصلي مفهرس؛ لم يُشاهد
+V03,Animal Farm,المساواة والسلطة,S005,,عنوان من فهرس ثانوي؛ يلزم رابط مباشر
+V04,Lord of the Flies,طبيعة الإنسان والجماعة,S004,,عنوان من فهرس ثانوي؛ يلزم رابط مباشر
+V05,The Bothersome Man,الراحة والمعنى,S004,,عنوان من فهرس ثانوي؛ يلزم رابط مباشر
+V06,Interstellar,الخيال العلمي والدهشة,S005,,عنوان من فهرس ثانوي؛ يلزم رابط مباشر
